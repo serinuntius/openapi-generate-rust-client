@@ -1,6 +1,4 @@
-技術ブログ記事に関連するサンプルのリポジトリの README を作成するのは、プロジェクトの概要と使い方を伝える重要なステップです。以下に Markdown 形式の README のテンプレートを提供します。
-
-# Swagger Petstore API クライアント（Rust）
+# OpenAPI Petstore API クライアント（Rust）
 
 ## 概要
 
