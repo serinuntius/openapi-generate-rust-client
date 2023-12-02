@@ -1,0 +1,17 @@
+{
+  "name": "openapi-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "openapi-generator-cli generate -g rust -i petstore.yaml -o petstore",
+    "prism": "prism mock ./petstore.yaml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.7.0",
+    "@stoplight/prism-cli": "^5.5.1"
+  }
+}
